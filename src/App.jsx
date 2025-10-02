@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import CodeEmbed from './components/CodeEmbed';
 import TrustBar from './components/TrustBar';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -15,8 +16,8 @@ export default function App() {
           </div>
           <nav className="hidden sm:flex items-center gap-6 text-sm text-white/70">
             <a href="#code" className="hover:text-white">Code</a>
+            <a href="#contact" className="hover:text-white">Contact</a>
             <a href="#docs" className="hover:text-white">Docs</a>
-            <a href="#pricing" className="hover:text-white">Pricing</a>
           </nav>
           <a href="#code" className="rounded-md bg-white/10 px-3 py-1.5 text-xs hover:bg-white/15">Start</a>
         </div>
@@ -26,6 +27,7 @@ export default function App() {
         <Hero />
         <TrustBar />
         <CodeEmbed />
+        <ContactForm />
       </main>
 
       <Footer />
